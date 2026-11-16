@@ -1,0 +1,10 @@
+[package]
+name = "SigmaOS-mintnanny"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS mintnanny component"
+
+[lib]
+name = "mintnanny"
+path = "src/lib.rs"
