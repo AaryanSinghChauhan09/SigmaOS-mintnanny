@@ -146,3 +146,6 @@ mod tests {
         assert_eq!(m.event_count(), 1);
     }
 }
+
+/// Content filtering / screen-time nanny (extracted from SigmaOS-system).
+pub mod sigmananny;
